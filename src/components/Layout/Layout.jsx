@@ -11,5 +11,5 @@ export const Layout = ({ children }) => {
 };
 
 Layout.propTypes = {
-  children: PropTypes.array.isRequired,
+   children: PropTypes.any.isRequired,
 };
